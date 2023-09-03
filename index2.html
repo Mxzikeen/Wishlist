@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WishList</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <h1 class="title">WishList</h1>
+    <div class="wrapper">
+      <ul id="list" class="list">
+        <li>
+          <span id="1">Apple</span>
+          <button onclick="addItem('1')">Add Item</button>
+        </li>
+        <li>
+          <span id="2">Notebook</span>
+          <button onclick="addItem('2')">Add Item</button>
+        </li>
+        <li>
+          <span id="3">T-Shirt</span>
+          <button onclick="addItem('3')">Add Item</button>
+        </li>
+        <li>
+          <span id="4">Glasses</span>
+          <button onclick="addItem('4')">Add Item</button>
+        </li>
+      </ul>
+    </div>
+    <div class="wishlistDiv">
+      <h1 class="title">MyBag</h1>
+      <ul id="wishlist"class="wishlist"></ul>
+      <p id="message" class="message"></p>
+    </div>
+    <script src="wishlist.js"></script>
+  </body>
+</html>
